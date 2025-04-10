@@ -1,7 +1,6 @@
-package main
+package deck
 
 import (
-	"fmt"
 	"math/rand"
 	"slices"
 	"time"
@@ -17,14 +16,6 @@ var rankOrder = [...]ranks.CardRank{ranks.Ace, ranks.TWO, ranks.THREE, ranks.FOU
 var suitsOrder = [...]suits.CardSuit{suits.Spade, suits.Diamond, suits.Heart, suits.Club}
 
 type FunctionalOption func(*[]card.Card)
-
-func main() {
-	deck := New(WithShuffle(), WithSort(DefaultCompare))
-
-	for _, v := range deck {
-		fmt.Println(v)
-	}
-}
 
 func New(options ...FunctionalOption) []card.Card {
 	var deck []card.Card

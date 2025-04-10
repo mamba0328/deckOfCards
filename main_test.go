@@ -1,4 +1,4 @@
-package main
+package deck
 
 import (
 	"github.com/mamba0328/deckOfCards/card"
