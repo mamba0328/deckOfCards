@@ -3,8 +3,8 @@ package card
 import (
 	"fmt"
 
-	ranks "deck.com/enums/ranks"
-	suits "deck.com/enums/suits"
+	ranks "github.com/mamba0328/deckOfCards/enums/ranks"
+	suits "github.com/mamba0328/deckOfCards/enums/suits"
 )
 
 type Card struct {

@@ -3,8 +3,8 @@ package card
 import (
 	"fmt"
 
-	"deck.com/enums/ranks"
-	"deck.com/enums/suits"
+	"github.com/mamba0328/deckOfCards/enums/ranks"
+	"github.com/mamba0328/deckOfCards/enums/suits"
 )
 
 func ExampleCard() { //https://go.dev/blog/examples

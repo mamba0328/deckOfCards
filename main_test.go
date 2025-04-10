@@ -1,9 +1,9 @@
 package main
 
 import (
-	"deck.com/card"
-	"deck.com/enums/ranks"
-	"deck.com/enums/suits"
+	"github.com/mamba0328/deckOfCards/card"
+	"github.com/mamba0328/deckOfCards/enums/ranks"
+	"github.com/mamba0328/deckOfCards/enums/suits"
 	"testing"
 )
 

@@ -6,10 +6,10 @@ import (
 	"slices"
 	"time"
 
-	"deck.com/card"
+	"github.com/mamba0328/deckOfCards/card"
 
-	"deck.com/enums/ranks"
-	"deck.com/enums/suits"
+	"github.com/mamba0328/deckOfCards/enums/ranks"
+	"github.com/mamba0328/deckOfCards/enums/suits"
 )
 
 // [...] instead of []: ensures you get a (fixed size) array instead of a slice. So the values aren't fixed but the size is.
